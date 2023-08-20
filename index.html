@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="stylesheet" type="text/css" href="styl.css" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-bar">
+        <div class="div-logo">
+          <a href="#" id="logo"><img src="assets/images/logo.svg" alt=""></a>
+        </div>
+
+        <div class="navigation">
+          <div class="nav-items">
+            <a href="./index.html">Home</a>
+            <a href="#">Niusy</a>
+            <a href="#">Popularne</a>
+            <a href="#">Trendy</a>
+            <a href="#">Kategorie</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="site-content">
+    <main>
+      <article>
+        <div class="main-image">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="">
+        </div>
+        <header>
+          <div id="home-title" class="title">
+            <h1>Przyszłość Web 3.0?</h1>
+          </div>
+          <div class="content">
+            <p>Zagłębiamy się w kolejną ewolucję sieci, która ma oddać władzę nad platformami w ręce ludzi. Ale czy naprawdę spełnia swoją obietnicę?</p>
+            <button onclick="location.href='./article1.html';">Więcej</button>
+          </div>
+        </header>
+      </article>
+    </main>
+    <aside>
+      <h2>New</h2>
+      <header>
+        <h3>Wodór VS samochody elektryczne</h3>
+        <p>Czy samochody zasilane wodorem kiedykolwiek dogonią EV?</p>
+      </header>
+      <div class="line"></div>
+      <header>
+        <h3>Ujemne strony artyzmu AI</h3>
+        <p>Jakie są możliwe negatywne skutki generowania obrazów przez AI na żądanie</p>
+      </header>
+      <div class="line"></div>
+      <header>
+        <h3>Czy finansowanie VC wysycha?</h3>
+        <p>Prywatne finansowanie przez firmy VC spadło o 50% r/r. Sprawdzamy, co to oznacza</p>
+      </header>
+
+    </aside>
+    <article id="top-articles" class="slider-container">
+      <ol class="slider-wrapper">
+        <li class="slider-item">
+          <img src="assets/images/image-retro-pcs.jpg" alt="">
+          <div class="list-content-div">
+            <h2>01</h2>
+            <h3>Komputery retro</h3>
+            <p>Co się dzieje, gdy otrzymują nowoczesne ulepszenia?</p>
+          </div>
+        </li>
+        <li class="slider-item">
+          <img src="assets/images/image-top-laptops.jpg" alt="">
+          <div class="list-content-div">
+            <h2>02</h2>
+            <h3>Top 10 laptopów z 2022 r.</h3>
+            <p>Nasze najlepsze propozycje dla różnych potrzeb i budżetów.</p>
+          </div>
+        </li>
+        <li class="slider-item">
+          <img src="assets/images/image-gaming-growth.jpg" alt="">
+          <div class="list-content-div">
+            <h2>03</h2>
+            <h3>Rozwój gier</h3>
+            <p>Jak pandemia stworzyła nowe możliwości.</p>
+          </div>
+        </li>
+        <li class="slider-item">
+          <img src="assets/images/smiling_and_winking_woman_8da68769-239f-4422-ba2e-6920a282cdaf.png" alt="">
+          <div class="list-content-div">
+            <h2>04</h2>
+            <h3>AI: Zastosowania i etyka</h3>
+            <p>Wpływ AI na różne branże i etyczne uwarunkowania jej wykorzystania.</p>
+          </div>
+        </li>
+        <li class="slider-item">
+          <img src="assets/images/technology_and_ecology_5dd42a93-fa69-4e89-81b0-1c8fca687540.png" alt="">
+          <div class="list-content-div">
+            <h2>05</h2>
+            <h3>Ekologiczna przyszłość</h3>
+            <p>Zbadaj, jak technologia może pomóc w rozwiązywaniu problemów środowiskowych i promowaniu zrównoważonych praktyk w różnych sektorach.</p>
+          </div>
+        </li>
+      </ol>
+      <div class="slider-nav">
+        <div class="slider-prev"><pre><</pre></div>
+        <div class="slider-next"><pre>></pre></div>
+      </div>
+    </article>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/winone44/"><b>winone44</b></a>.
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>

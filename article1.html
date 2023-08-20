@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="stylesheet" type="text/css" href="styl.css" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="nav-bar">
+      <div class="div-logo">
+        <a href="./index.html" id="logo"><img src="assets/images/logo.svg" alt=""></a>
+      </div>
+
+      <div class="navigation">
+        <div class="nav-items">
+          <a href="./index.html">Home</a>
+          <a href="#">Niusy</a>
+          <a href="#">Popularne</a>
+          <a href="#">Trendy</a>
+          <a href="#">Kategorie</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="site-content">
+  <main>
+    <article>
+      <div class="main-image">
+        <img src="assets/images/image-web-3-desktop-article.jpg" alt="">
+      </div>
+      <header>
+        <div class="title" >
+          <h1>Przyszłość Web 3.0?</h1>
+        </div>
+        <div class="article-info">
+          Autor: <a href="./profile.html">Jan Nowak</a>
+          Data dodania: 19.04.2023
+        </div>
+      </header>
+      <div class="content">
+        <p>Web 3.0 to przyszłość internetu, która ma dać ludziom kontrolę nad platformami. Jednak czy ta obietnica zostanie spełniona?
+
+          Pierwsza wersja internetu, zwana Web 1.0, była jedynie statycznym źródłem informacji. Wraz z pojawieniem się Web 2.0, użytkownicy zyskali możliwość interakcji z witrynami i między sobą. Social media, blogi i aplikacje do udostępniania treści pozwoliły na pełniejsze wykorzystanie potencjału sieci.
+
+          Teraz nadszedł czas na kolejną rewolucję – Web 3.0. Jest to koncepcja, która zakłada, że internet powinien być zdecentralizowany, a użytkownicy powinni mieć pełną kontrolę nad swoimi danymi. W skrócie, Web 3.0 to internet bez pośredników.
+
+          W Web 3.0 dane użytkowników nie są przechowywane na serwerach centralnych, lecz na blockchainie. Technologia ta pozwala na bezpieczne i niezależne przechowywanie informacji, które nie mogą być modyfikowane lub usunięte bez zgody właściciela.
+
+          W Web 3.0 również aplikacje są zdecentralizowane. Zamiast korzystać z platformy, która kontroluje i zarządza danymi użytkowników, aplikacje są uruchamiane na blockchainie. Dzięki temu użytkownicy mają pełną kontrolę nad swoimi danymi, a platformy nie mają dostępu do informacji, których nie potrzebują.
+
+          Web 3.0 obiecuje także pełniejszą prywatność i bezpieczeństwo w sieci. W przeciwieństwie do Web 2.0, gdzie dane użytkowników były wykorzystywane przez platformy w celach marketingowych, Web 3.0 zakłada, że użytkownicy powinni mieć pełną kontrolę nad swoimi danymi i decydować o ich wykorzystaniu.
+
+          Jednak czy Web 3.0 spełni swoją obietnicę? Na razie jest to trudne do przewidzenia. Technologia blockchain jest wciąż stosunkowo nowa i wymaga dalszego rozwoju. Poza tym, wielu użytkowników wciąż nie zdaje sobie sprawy z zagrożeń związanych z przechowywaniem danych na serwerach centralnych.
+
+          Mimo to, Web 3.0 ma ogromny potencjał i może odmienić sposób, w jaki korzystamy z internetu. Daje użytkownikom pełną kontrolę nad ich danymi i pozwala na pełniejsze wykorzystanie potencjału sieci. Czy Web 3.0 zrewolucjonizuje internet tak jak Web 2.0? Czas pokaże.</p>
+      </div>
+    </article>
+  </main>
+  <aside>
+    <h2>New</h2>
+    <header>
+      <h3>Wodór VS samochody elektryczne</h3>
+      <p>Czy samochody zasilane wodorem kiedykolwiek dogonią EV?</p>
+    </header>
+    <div class="line"></div>
+    <header>
+      <h3>Ujemne strony artyzmu AI</h3>
+      <p>Jakie są możliwe negatywne skutki generowania obrazów przez AI na żądanie</p>
+    </header>
+    <div class="line"></div>
+    <header>
+      <h3>Czy finansowanie VC wysycha?</h3>
+      <p>Prywatne finansowanie przez firmy VC spadło o 50% r/r. Sprawdzamy, co to oznacza</p>
+    </header>
+
+  </aside>
+  <article id="top-articles" class="slider-container">
+    <ol class="slider-wrapper">
+      <li class="slider-item">
+        <img src="assets/images/image-retro-pcs.jpg" alt="">
+        <div class="list-content-div">
+          <h2>01</h2>
+          <h3>Komputery retro</h3>
+          <p>Co się dzieje, gdy otrzymują nowoczesne ulepszenia?</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <img src="assets/images/image-top-laptops.jpg" alt="">
+        <div class="list-content-div">
+          <h2>02</h2>
+          <h3>Top 10 laptopów z 2022 r.</h3>
+          <p>Nasze najlepsze propozycje dla różnych potrzeb i budżetów.</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <img src="assets/images/image-gaming-growth.jpg" alt="">
+        <div class="list-content-div">
+          <h2>03</h2>
+          <h3>Rozwój gier</h3>
+          <p>Jak pandemia stworzyła nowe możliwości.</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <img src="assets/images/smiling_and_winking_woman_8da68769-239f-4422-ba2e-6920a282cdaf.png" alt="">
+        <div class="list-content-div">
+          <h2>04</h2>
+          <h3>AI: Zastosowania i etyka</h3>
+          <p>Wpływ AI na różne branże i etyczne uwarunkowania jej wykorzystania.</p>
+        </div>
+      </li>
+      <li class="slider-item">
+        <img src="assets/images/technology_and_ecology_5dd42a93-fa69-4e89-81b0-1c8fca687540.png" alt="">
+        <div class="list-content-div">
+          <h2>05</h2>
+          <h3>Ekologiczna przyszłość</h3>
+          <p>Zbadaj, jak technologia może pomóc w rozwiązywaniu problemów środowiskowych i promowaniu zrównoważonych praktyk w różnych sektorach.</p>
+        </div>
+      </li>
+    </ol>
+    <div class="slider-nav">
+      <div class="slider-prev"><pre><</pre></div>
+      <div class="slider-next"><pre>></pre></div>
+    </div>
+  </article>
+</div>
+<footer class="attribution">
+  <p>Strone internetową wykonał <b>Patryk Krasny</b></p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
